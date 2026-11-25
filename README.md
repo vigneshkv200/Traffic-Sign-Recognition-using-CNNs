@@ -8,7 +8,7 @@ An end-to-end Deep Learning project that classifies physical traffic sign images
 
 ---
 
-## 📌 Key Learning Objectives & Achievements
+##  Key Learning Objectives & Achievements
 * **ROI Extraction & Preprocessing**: Applied ground-truth bounding box crop configurations (`Roi.X1`, `Roi.Y1`, `Roi.X2`, `Roi.Y2`) using OpenCV to eliminate background clutter (roads, sky, trees) and optimize learning boundaries.
 * **CNN Design**: Structured a multi-stage feature extraction hierarchy using stacked 2D Convolution, MaxPooling, Dropout, and Dense layers.
 * **Generalization**: Controlled overfitting through Dropout regularizations and EarlyStopping callbacks, achieving near-perfect convergence.
@@ -16,7 +16,7 @@ An end-to-end Deep Learning project that classifies physical traffic sign images
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Framework**: TensorFlow / Keras
 * **Data Processing**: NumPy, Pandas, OpenCV (`cv2`)
 * **Visualization**: Matplotlib, Seaborn
@@ -24,7 +24,7 @@ An end-to-end Deep Learning project that classifies physical traffic sign images
 
 ---
 
-## 📐 Model Architecture & Flow
+##  Model Architecture & Flow
 
 Our custom Sequential CNN pipeline transforms raw pixel dimensions `(32, 32, 3)` into class probabilities via abstract spatial hierarchy:
 
@@ -47,7 +47,7 @@ Input (32x32x3)
 
 ---
 
-## 📈 Results and Metrics
+##  Results and Metrics
 * **Training Accuracy**: `99.39%` (Loss: `0.0207`)
 * **Test Accuracy**: `97.15%` (Loss: `0.1452`)
 * **Total Samples**: Over 50,000 images.
@@ -55,7 +55,7 @@ Input (32x32x3)
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 ```
 ├── dataset/                 # GTSRB Raw & CSV Data
 │   ├── Train.csv            # Annotation paths and ROI bounding coordinates
@@ -69,7 +69,7 @@ Input (32x32x3)
 
 ---
 
-## 🚀 How to Run locally
+##  How to Run locally
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/YOUR_USERNAME/traffic-sign-recognition-cnn.git
@@ -80,4 +80,4 @@ Input (32x32x3)
    pip install tensorflow opencv-python pandas numpy matplotlib seaborn scikit-learn
    ```
 3. **Run the Notebook**: Open and execute all cells in `traffic_sign_pipeline.ipynb` to download dependencies, extract the dataset, train, and plot evaluation curves.
-```
+
